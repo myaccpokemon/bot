@@ -65,7 +65,7 @@ async function connection() {
 	    if(reason.reason != 'intentional'){
 	        console.log(color('Não foi possivel se reconectar', 'gray'))
 	        if (fs.existsSync('./sessions.json')) {
-	        	fs.unlinkSync('./sessions.json')
+	        	//fs.unlinkSync('./sessions.json')
 	        }
 	    }
 	})
